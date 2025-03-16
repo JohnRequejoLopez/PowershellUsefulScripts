@@ -10,8 +10,9 @@ param (
 )
 
 
+# If no parameters were provided, display usage information
 if (-not $csvPath) {
-    Write-Error "Please provide the path where the CSV file should be saved."
+    Write-Host "Usage: GePortCSVGenerator.ps1 -csvPath <CSV File Path>" -ForegroundColor Yellow
     exit
 }
 

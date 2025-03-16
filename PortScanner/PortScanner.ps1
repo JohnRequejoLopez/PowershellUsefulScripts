@@ -15,14 +15,9 @@ param (
     [string]$csvPath
 )
 
-# Check if both parameters are provided
-if (-not $publicIP) {
-    Write-Error "Please provide the public IP as an argument."
-    exit
-}
-
-if (-not $csvPath) {
-    Write-Error "Please provide the path to the CSV file as an argument."
+# If no parameters were provided, display usage information
+if (-not $publicIP -or -not $csvPath) {
+    Write-Host "Usage: PortScanner.ps1 -publicIP <IP Address> -csvPath <CSV File Path>" -ForegroundColor Yellow
     exit
 }
 
