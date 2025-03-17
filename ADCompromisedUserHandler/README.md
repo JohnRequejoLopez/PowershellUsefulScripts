@@ -2,7 +2,7 @@
 
 ## Overview
 
-HandleCompromisedUser is a PowerShell script designed to assist in incident response by taking immediate actions on compromised Active Directory (AD) user accounts. This script provides functionality to:
+[HandleCompromisedUser](https://github.com/JohnRequejoLopez/PowershellUsefulScripts/tree/main/ADCompromisedUserHandler/HandleCompromisedUser.ps1) is a PowerShell script designed to assist in incident response by taking immediate actions on compromised Active Directory (AD) user accounts. This script provides functionality to:
 
 - Disable a compromised user account.
 - Reset the user's password.

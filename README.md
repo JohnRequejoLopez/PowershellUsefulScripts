@@ -11,7 +11,8 @@ This repository contains a collection of useful PowerShell scripts designed to a
 ### [3. **PasswordLastSetRetriever**](https://github.com/JohnRequejoLopez/PowershellUsefulScripts/tree/main/PasswordLastSet)
 ### [4. **ADCompromisedUserHandler**](https://github.com/JohnRequejoLopez/PowershellUsefulScripts/tree/main/ADCompromisedUserHandler)
 ### [5. **NetworkContainment**](https://github.com/JohnRequejoLopez/PowershellUsefulScripts/tree/main/NetworkContainment)
-   
+### [6. **CheckUserActivity**](https://github.com/JohnRequejoLopez/PowershellUsefulScripts/tree/main/ADActivityChecker)
+
 ## Author
 
 John Requejo

@@ -2,7 +2,7 @@
 
 ## Overview
 
-**PortScanner** is a PowerShell script that checks whether specific ports are open or closed on a given public IP address. The ports are read from a CSV file, and the script uses `Test-NetConnection` to verify the accessibility of each port. The script outputs the results, indicating whether each port is open or closed.
+[**PortScanner**](https://github.com/JohnRequejoLopez/PowershellUsefulScripts/tree/main/PortScanner/PortScanner.ps1) is a PowerShell script that checks whether specific ports are open or closed on a given public IP address. The ports are read from a CSV file, and the script uses `Test-NetConnection` to verify the accessibility of each port. The script outputs the results, indicating whether each port is open or closed.
 
 ## Prerequisites
 

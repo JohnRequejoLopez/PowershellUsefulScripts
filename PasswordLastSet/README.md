@@ -1,8 +1,8 @@
-# PasswordLastSetRetriever
+# Password Last Set
 
 ## Overview
 
-PasswordLastSetRetriever is a PowerShell script designed to retrieve the 'PasswordLastSet' date for a specified Active Directory user. It outputs the formatted date to a given file, ensuring that the destination directory exists before writing. If the date is not found or an error occurs, a corresponding message is written to the file.
+[PasswordLastSetRetriever](https://github.com/JohnRequejoLopez/PowershellUsefulScripts/tree/main/PasswordLastSet/PasswordLastSetRetriever.ps1) is a PowerShell script designed to retrieve the 'PasswordLastSet' date for a specified Active Directory user. It outputs the formatted date to a given file, ensuring that the destination directory exists before writing. If the date is not found or an error occurs, a corresponding message is written to the file.
 
 ## Prerequisites
 

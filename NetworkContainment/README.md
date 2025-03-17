@@ -2,7 +2,7 @@
 
 ## Overview
 
-**NetworkContainmentActions** is a PowerShell script designed to assist in network containment during security incidents. This script provides functionality to:
+[**NetworkContainmentActions**](https://github.com/JohnRequejoLopez/PowershellUsefulScripts/tree/main/NetworkContainment/NetworkContainmentActions.ps1) is a PowerShell script designed to assist in network containment during security incidents. This script provides functionality to:
 
 - Block a malicious IP address across all domain computers.
 - Terminate suspicious user sessions on all domain computers.
