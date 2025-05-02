@@ -84,9 +84,9 @@ The script outputs the results to a report file and includes:
 
    - Example:
      ```powershell
-     .\CheckUserLastActivity.ps1 -UserName "john.requejo" -ReportPath "C:\Reports\JohnRequejo_ActivityReport.txt"
+     .\CheckUserDisableStatus.ps1 -UserName "john.requejo" -ReportPath "C:\Reports\JohnRequejo_StatusCheck.txt"
      ```
-     The script will generate a report of the last successful logins and failed login attempts for the user `john.requejo`, and output the results to the specified file.
+     This command will check whether the account for `john.requejo` is enabled or disabled in Active Directory, writing the results to the specified file.
 
 ---
 
